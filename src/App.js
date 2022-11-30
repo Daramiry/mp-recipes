@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import AppNavbar from './components/NavBar';
+import AppNavbar from './Components/NavBar';
 import Home from './pages/Home';
 import {Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import ErrorPage from './pages/404/404';
@@ -10,7 +10,7 @@ import { useContext } from 'react';
 import { MyContext } from "./context"
 
 function App() {
-  const { user } = useContext(MyContext)
+  // const { user } = useContext(MyContext)
   return (
     <Router>
     <div className="Jumbo">

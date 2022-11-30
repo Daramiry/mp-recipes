@@ -6,7 +6,6 @@ import axios from "axios"
 
 function Jumbo() {
   const [searchInput, setsearchInput] = useState("");
-  const {count} = useContext(MyContext);
   const {setMeals} = useContext(MyContext)
   function handleSearch(){
       axios
