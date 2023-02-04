@@ -2,7 +2,7 @@ import React from 'react';
 import {Card} from "react-bootstrap";
 import{ Button } from "react-bootstrap"
 
-function RecipeCard({strRecipe}) {
+function RecipeCard({strRecipe}: any) {
   return (
     <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
